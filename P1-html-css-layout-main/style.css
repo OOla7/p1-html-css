@@ -1,39 +1,325 @@
 * {
+
   margin: 0;
+
   padding: 0;
+
   box-sizing: border-box;
-}
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Goldman", cursive;
+
 }
 
+html {
+
+  background: no-repeat;
+
+  font-size: 62.5%;
+
+  background-image: url(./background.jpeg);
+
+  background-size: cover;
+
+  height:100% ;
+
+ 
+
+}
+
+body {
+
+  font-family: "Goldman", cursive;
+
+  background: no-repeat;
+
+  color: rgb(0, 0, 0);
+
+  min-height: 100vh;
+
+  position: relative;
+
+  margin: 0;
+
+}
+
+ 
+
 nav {
+
   display: flex;
+
   width: 100%;
+
   padding: 2rem;
+
   min-height: 10vh;
+
   align-items: center;
+
   flex-wrap: wrap;
+
   margin: auto;
+
   background: #00a8c7;
+
   justify-content: space-between;
+
+  top: 0;
+
+  left: 0;
+
+  z-index: 1000;
+
+  position: sticky;
+
+  top: 0;
+
+ 
+
 }
+
+ 
+
 nav ul {
+
   display: flex;
+
   align-items: center;
+
   list-style-type: none;
+
 }
+
 nav li {
+
   font-size: 2.5rem;
+
   padding: 0 4rem 0 4rem;
+
 }
+
 nav a {
+
   color: white;
+
   text-decoration: none;
+
 }
+
 nav img {
+
   width: 5vw;
+
+}
+
+ 
+
+footer{
+
+  display: flex;
+
+  width: 100%;
+
+  padding: 2rem;
+
+  min-height: 10vh;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  margin: auto;
+
+  background: #00a8c7;
+
+  justify-content: center;
+
+  text-align: center;
+
+}
+
+ 
+
+.background-index{
+
+  background-image: url(./img/background.jpeg);
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+}
+
+ 
+
+.FTCR{
+
+  font-size: 30px;
+
+  text-align: center;
+
+  padding: 20px;
+
+  color: aliceblue;
+
+}
+
+ 
+
+.page-footer{
+
+  display: flex;
+
+  width: 100%;
+
+  padding: 2rem;
+
+  min-height: 10vh;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  margin: auto;
+
+  background: #00a8c7;
+
+  justify-content: center;
+
+  position: absolute;
+
+  bottom: 0;
+
+}
+
+ 
+
+.black-bg{
+
+  background-color: black;
+
+}
+
+ 
+
+.white-p{
+
+  font-family: "Goldman", cursive;
+
+  color: azure;
+
+}
+
+ 
+
+ 
+
+ 
+
+.footer{
+
+  position: absolute;
+
+  bottom: 0;
+
+}
+
+ 
+
+section img{
+
+  width: 40vw;
+
+}
+
+ 
+
+.h1-h1{
+
+  color: white;
+
+}
+
+.float {
+
+  width: 50vw;
+
+  float: right;
+
+}
+
+p{
+
+  color: black;
+
+  font-size: 20px;
+
+}
+
+ 
+
+h1{
+
+  font-size: 50px;
+
+  padding: 10px;
+
+}
+
+ 
+
+h2{
+
+  margin-top: 60px;
+
+  font-size: 20px;
+
+}
+
+ 
+
+.h2-h2{
+
+  color: white;
+
+}
+
+ 
+
+.dropdown-content{
+
+  display: none;
+
+  position: absolute;
+
+  background-color: rgb(255, 255, 255);
+
+  min-width: 20vw;
+
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0.2);
+
+  z-index: 1;
+
+}
+
+ 
+
+.dropdown-content a{
+
+  color: rgb(22, 26, 255);
+
+  padding: 0.8rem 1rem;
+
+  display: block;
+
+  text-align: left;
+
+}
+
+ 
+
+.dropdown:hover .dropdown-content{
+
+  display: block;
+
 }
