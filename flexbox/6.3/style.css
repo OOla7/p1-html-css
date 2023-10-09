@@ -1,12 +1,23 @@
-.navbar {
-    background-color: aqua;
-    padding: 10px;
-}
-.nav-list {
-    list-style: none;
+nav {
     display: flex;
-    justify-content: space-between;
-    margin: 0%;
-    padding: 0%;
+    width: 100%;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-around;
+}
 
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 2rem;
+    padding: 0 2rem 0 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
